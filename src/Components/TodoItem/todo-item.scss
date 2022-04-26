@@ -1,0 +1,25 @@
+li{
+    list-style-type: none;
+    width: 324px;
+    margin: 0 auto;  
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: white;
+    padding: 10px 8px ;
+    border-radius: 5px;
+
+    button{
+        border: none;
+        background-color: rgb(207, 92, 47);
+        padding: 5px 10px ;
+        border-radius: 5px;
+    }  
+    
+    .complated{
+        text-decoration: line-through;
+    }
+    
+}  
+

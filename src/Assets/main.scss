@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input{
+  width: 300px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.input:focus{
+  border:1px rgb(44, 44, 134) solid;
+  outline-width: 0px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
