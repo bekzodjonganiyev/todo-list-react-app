@@ -21,4 +21,13 @@ body {
 ul{
   margin: 0;
   padding: 0;
+  height: 800px;
+  overflow: auto;
+}
+.inputRadio{
+  display: none;
+}
+.radioLabel{
+  background: blue;
+  margin: 0 10px;
 }
