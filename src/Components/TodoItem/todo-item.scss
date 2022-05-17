@@ -1,6 +1,6 @@
 li{
     list-style-type: none;
-    width: 324px;
+    width: 500px;
     margin: 0 auto;  
     margin-bottom: 20px;
     display: flex;
@@ -8,7 +8,9 @@ li{
     justify-content: space-around; 
     background-color: white;
     padding: 10px 8px ;
+    box-sizing: border-box;
     border-radius: 5px;
+    font-size: 24px;
 
     button{
         border: none;
@@ -17,7 +19,7 @@ li{
         border-radius: 5px;
     }  
     
-    .complated{
+    .completed{
         text-decoration: line-through;
     }
     

@@ -1,11 +1,11 @@
 import "./todo-item.scss"
 
-const TodoItem = ({ handleComplate, handleDeleteTodo, isComplated, title, id }) => {
+const TodoItem = ({ handleComplete, handleDeleteTodo, isCompleted, title }) => {
   return (
-    <li id={id}>
-      <input type="checkbox" onChange={handleComplate} data-todo-id={id} checked={isComplated}/>
-      <strong className={isComplated && "complated"}>{title}</strong>
-      <button onClick={handleDeleteTodo} data-todo-id={id}>
+    <li>
+      <input type="checkbox" onChange={handleComplete} checked={isCompleted}/>
+      <strong className={isCompleted ? "completed" : ''}>{title}</strong>
+      <button onClick={handleDeleteTodo}>
         Delete
       </button>
     </li>
